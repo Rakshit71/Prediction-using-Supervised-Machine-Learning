@@ -31,6 +31,9 @@ summary(LinearModel)
 # Our model is-
 # Scores = 2.4837 + 9.7758*Hours
 # Means a change of 1 unit in hours will change the scores by 9.7758.
+#Checking the score based on our model.
+Scores = 2.4837+9.7758*9.25
+Scores
 # Predicting the scores if someone will study for 9.25 hours.
 predict(LinearModel, newdata = p)
 # So, Our model has predicted that if someone will study for 9.25hours so the score will be approx 93.
